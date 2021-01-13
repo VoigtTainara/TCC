@@ -2,6 +2,7 @@
   <div id="app">
     <Nav></Nav>
     <div class="marginPrincipal">
+      <Setores/>
       <Funcionarios/>
     </div>
   </div>
@@ -9,12 +10,14 @@
 
 <script>
 import Funcionarios from './components/Funcionario/Funcionarios.vue'
+import Setores from './components/Setor/Setores.vue'
 import Nav from './components/_nav/Nav'
 
 export default {
   name: 'app',
   components:{
     Funcionarios,
+    Setores,
     Nav
   }
 }

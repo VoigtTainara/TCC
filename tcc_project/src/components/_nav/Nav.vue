@@ -1,9 +1,8 @@
 <template>
     <div class="barraTopo">
         <nav class="marginPrincipal">
-            <a href="">Setor</a>    
-            <a href="">Funcionário</a>  
-            <a href="">Sobre</a>
+            <a href="/setores">Setor</a> 
+            <a href="/funcionarios">Funcionário</a> 
         </nav>    
     </div>
 </template>
